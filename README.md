@@ -20,7 +20,7 @@ This allows you to configure remote desktop settings and create the necessary fi
 
 ### xRemoteDesktopAdmin
 
-* **Ensure**: Enables or disables “remote connections to this computer”.
+* **Ensure**: Ensures that “remote connections to this computer” are allowed or disallowed: { Absent | Present }
 * **UserAuthentication**: Enables or disables “Network Level Authentication”.  
 
 
@@ -32,7 +32,7 @@ This allows you to configure remote desktop settings and create the necessary fi
 
 ### 1.0.0.0
 
-* Initial release with the following resources 
+* Initial release with the following resource:
     * xRemoteDesktopAdmin
 
 
@@ -40,12 +40,13 @@ This allows you to configure remote desktop settings and create the necessary fi
 
 ### ExampleConfiguration-RemoteDesktopAdmin.ps1
 
-This configuration configures the target system to allow for remote connections (allowing a RDP session being setup), enables Network Level Authentication and creates a Windows firewall rule to allow incoming RDP traffic.
+This configuration configures the target system to allow for remote connections (i.e. allows an RDP session to be setup), enables Network Level Authentication and creates a Windows firewall rule to allow incoming RDP traffic.
 
 ### ExampleConfiguration-RemoteDesktopAdminWithUnEncryptedPassword.ps1
 
 This configuration extends the previous configuration by adding a domain user to the local Remote Desktop Users group using a credential stored in clear text (for testing purposes only).
+Note: this Example requires the built-in **Group** resource. 
 
 ### ExampleConfiguration-RemoteDesktopAdminWithEncryptedPassword.ps1
 
-This configuration extends the previous configuration by adding a domain user to the local Remote Desktop Users group using certificates to encrypt credentials.
+This configuration extends the previous configuration by adding a domain user to the local Remote Desktop Users group using certificates to encrypt credentials. Please refer to [this blog post](please refer to http://blogs.msdn.com/b/powershell/archive/2014/01/31/want-to-secure-credentials-in-windows-powershell-desired-state-configuration.aspx) for more info on how to use certificates to encrypt passwords.
