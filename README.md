@@ -21,7 +21,9 @@ This allows you to configure remote desktop settings and create the necessary fi
 ### xRemoteDesktopAdmin
 
 * **Ensure**: Enables or disables “remote connections to this computer”.
-* **UserAuthentication**: Enables or disables “Network Level Authentication”.  
+* **UserAuthentication**: Enables or disables “Network Level Authentication”. Valid values are:
+  * Secure
+  * NonSecure
 
 
 ## Versions
