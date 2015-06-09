@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/iwctay9q3t2c72r8/branch/master?svg=true)](https://ci.appveyor.com/project/PowerShell/xremotedesktopadmin/branch/master)
+﻿[![Build status](https://ci.appveyor.com/api/projects/status/iwctay9q3t2c72r8/branch/master?svg=true)](https://ci.appveyor.com/project/PowerShell/xremotedesktopadmin/branch/master)
 
 # xRemoteDesktopAdmin
 
@@ -27,6 +27,10 @@ This allows you to configure remote desktop settings and create the necessary fi
 
 
 ## Versions
+
+### 1.0.3.0
+
+* Updated examples
 
 ### 1.0.2.0
 
