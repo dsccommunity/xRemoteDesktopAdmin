@@ -28,6 +28,8 @@ This allows you to configure remote desktop settings and create the necessary fi
 
 ## Versions
 
+### Unreleased
+
 ### 1.1.0.0
 
 * Updated OutputType to System.Boolean for Test-TargetResource and removed for Set-TargetResource.
