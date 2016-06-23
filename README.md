@@ -1,8 +1,11 @@
-Ôªø[![Build status](https://ci.appveyor.com/api/projects/status/iwctay9q3t2c72r8/branch/master?svg=true)](https://ci.appveyor.com/project/PowerShell/xremotedesktopadmin/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/iwctay9q3t2c72r8/branch/master?svg=true)](https://ci.appveyor.com/project/PowerShell/xremotedesktopadmin/branch/master)
 
 # xRemoteDesktopAdmin
 
 The **xRemoteDesktopAdmin** module contains the **xRemoteDesktopAdmin** DSC resource for configuring remote desktop settings and the Windows firewall on a local or remote machine.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 ## Contributing
 Please check out common DSC Resources [contributing guidelines](https://github.com/PowerShell/DscResource.Kit/blob/master/CONTRIBUTING.md).
@@ -20,8 +23,8 @@ This allows you to configure remote desktop settings and create the necessary fi
 
 ### xRemoteDesktopAdmin
 
-* **Ensure**: Ensures that ‚Äúremote connections to this computer‚Äù are allowed or disallowed: { Absent | Present }
-* **UserAuthentication**: Enables or disables ‚ÄúNetwork Level Authentication‚Äù. Valid values are:
+* **Ensure**: Ensures that ìremote connections to this computerî are allowed or disallowed: { Absent | Present }
+* **UserAuthentication**: Enables or disables ìNetwork Level Authenticationî. Valid values are:
   * Secure
   * NonSecure
 
