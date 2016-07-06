@@ -32,6 +32,7 @@ This allows you to configure remote desktop settings and create the necessary fi
 ## Versions
 
 ### Unreleased
+* Converted appveyor.yml to install Pester from PSGallery instead of from Chocolatey.
 
 ### 1.1.0.0
 
