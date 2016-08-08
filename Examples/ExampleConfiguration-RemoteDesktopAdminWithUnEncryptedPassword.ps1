@@ -1,3 +1,5 @@
+[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingComputerNameHardcoded', '')] 
+param()
 # The configuration data section specifies to allow using a plain text stored password
 $ConfigData = @{
     AllNodes = @(
