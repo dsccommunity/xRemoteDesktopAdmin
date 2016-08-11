@@ -1,3 +1,5 @@
+[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingComputerNameHardcoded', '')] 
+param()
 # The configuration data section specifies which certificate and thumbprint to use for encrypting the password
 $ConfigData = @{
     AllNodes = @(

@@ -1,3 +1,6 @@
+[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingComputerNameHardcoded', '')] 
+param()
+
 Configuration AllowRemoteDesktopAdminConnections
 {
     Import-DscResource -Module xRemoteDesktopAdmin, xNetworking
